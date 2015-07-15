@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6DEF0DE1B5691E60080D975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DEF0DD1B5691E60080D975 /* AppDelegate.swift */; };
+		D6DEF0E01B5691E60080D975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DEF0DF1B5691E60080D975 /* Images.xcassets */; };
+		D6DEF0E31B5691E60080D975 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DEF0E11B5691E60080D975 /* LaunchScreen.xib */; };
+		D6DEF0EF1B5691E60080D975 /* RadiocheckboxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DEF0EE1B5691E60080D975 /* RadiocheckboxSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6DEF0E91B5691E60080D975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DEF0D01B5691E60080D975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DEF0D71B5691E60080D975;
+			remoteInfo = RadiocheckboxSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6DEF0D81B5691E60080D975 /* RadiocheckboxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiocheckboxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DEF0DC1B5691E60080D975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DEF0DD1B5691E60080D975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6DEF0DF1B5691E60080D975 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6DEF0E21B5691E60080D975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6DEF0E81B5691E60080D975 /* RadiocheckboxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiocheckboxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DEF0ED1B5691E60080D975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DEF0EE1B5691E60080D975 /* RadiocheckboxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiocheckboxSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DEF0D51B5691E60080D975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DEF0E51B5691E60080D975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DEF0CF1B5691E60080D975 = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0DA1B5691E60080D975 /* RadiocheckboxSwift */,
+				D6DEF0EB1B5691E60080D975 /* RadiocheckboxSwiftTests */,
+				D6DEF0D91B5691E60080D975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DEF0D91B5691E60080D975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0D81B5691E60080D975 /* RadiocheckboxSwift.app */,
+				D6DEF0E81B5691E60080D975 /* RadiocheckboxSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DEF0DA1B5691E60080D975 /* RadiocheckboxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0DD1B5691E60080D975 /* AppDelegate.swift */,
+				D6DEF0DF1B5691E60080D975 /* Images.xcassets */,
+				D6DEF0E11B5691E60080D975 /* LaunchScreen.xib */,
+				D6DEF0DB1B5691E60080D975 /* Supporting Files */,
+			);
+			path = RadiocheckboxSwift;
+			sourceTree = "<group>";
+		};
+		D6DEF0DB1B5691E60080D975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0DC1B5691E60080D975 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6DEF0EB1B5691E60080D975 /* RadiocheckboxSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0EE1B5691E60080D975 /* RadiocheckboxSwiftTests.swift */,
+				D6DEF0EC1B5691E60080D975 /* Supporting Files */,
+			);
+			path = RadiocheckboxSwiftTests;
+			sourceTree = "<group>";
+		};
+		D6DEF0EC1B5691E60080D975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEF0ED1B5691E60080D975 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DEF0D71B5691E60080D975 /* RadiocheckboxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DEF0F21B5691E60080D975 /* Build configuration list for PBXNativeTarget "RadiocheckboxSwift" */;
+			buildPhases = (
+				D6DEF0D41B5691E60080D975 /* Sources */,
+				D6DEF0D51B5691E60080D975 /* Frameworks */,
+				D6DEF0D61B5691E60080D975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadiocheckboxSwift;
+			productName = RadiocheckboxSwift;
+			productReference = D6DEF0D81B5691E60080D975 /* RadiocheckboxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DEF0E71B5691E60080D975 /* RadiocheckboxSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DEF0F51B5691E60080D975 /* Build configuration list for PBXNativeTarget "RadiocheckboxSwiftTests" */;
+			buildPhases = (
+				D6DEF0E41B5691E60080D975 /* Sources */,
+				D6DEF0E51B5691E60080D975 /* Frameworks */,
+				D6DEF0E61B5691E60080D975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DEF0EA1B5691E60080D975 /* PBXTargetDependency */,
+			);
+			name = RadiocheckboxSwiftTests;
+			productName = RadiocheckboxSwiftTests;
+			productReference = D6DEF0E81B5691E60080D975 /* RadiocheckboxSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DEF0D01B5691E60080D975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Netiapps;
+				TargetAttributes = {
+					D6DEF0D71B5691E60080D975 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D6DEF0E71B5691E60080D975 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D6DEF0D71B5691E60080D975;
+					};
+				};
+			};
+			buildConfigurationList = D6DEF0D31B5691E60080D975 /* Build configuration list for PBXProject "RadiocheckboxSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DEF0CF1B5691E60080D975;
+			productRefGroup = D6DEF0D91B5691E60080D975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DEF0D71B5691E60080D975 /* RadiocheckboxSwift */,
+				D6DEF0E71B5691E60080D975 /* RadiocheckboxSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DEF0D61B5691E60080D975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DEF0E31B5691E60080D975 /* LaunchScreen.xib in Resources */,
+				D6DEF0E01B5691E60080D975 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DEF0E61B5691E60080D975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DEF0D41B5691E60080D975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DEF0DE1B5691E60080D975 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DEF0E41B5691E60080D975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DEF0EF1B5691E60080D975 /* RadiocheckboxSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6DEF0EA1B5691E60080D975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DEF0D71B5691E60080D975 /* RadiocheckboxSwift */;
+			targetProxy = D6DEF0E91B5691E60080D975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6DEF0E11B5691E60080D975 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DEF0E21B5691E60080D975 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6DEF0F01B5691E60080D975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DEF0F11B5691E60080D975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DEF0F31B5691E60080D975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadiocheckboxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6DEF0F41B5691E60080D975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadiocheckboxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6DEF0F61B5691E60080D975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadiocheckboxSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadiocheckboxSwift.app/RadiocheckboxSwift";
+			};
+			name = Debug;
+		};
+		D6DEF0F71B5691E60080D975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadiocheckboxSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadiocheckboxSwift.app/RadiocheckboxSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DEF0D31B5691E60080D975 /* Build configuration list for PBXProject "RadiocheckboxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DEF0F01B5691E60080D975 /* Debug */,
+				D6DEF0F11B5691E60080D975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DEF0F21B5691E60080D975 /* Build configuration list for PBXNativeTarget "RadiocheckboxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DEF0F31B5691E60080D975 /* Debug */,
+				D6DEF0F41B5691E60080D975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6DEF0F51B5691E60080D975 /* Build configuration list for PBXNativeTarget "RadiocheckboxSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DEF0F61B5691E60080D975 /* Debug */,
+				D6DEF0F71B5691E60080D975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DEF0D01B5691E60080D975 /* Project object */;
+}
