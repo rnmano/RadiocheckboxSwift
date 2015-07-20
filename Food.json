@@ -1,0 +1,46 @@
+{
+    "post": [
+                  {
+                  "title": "Question1",
+                  "Keyname": "What type of meal would you like?*",
+                  "Type": "Check",
+             
+                  "information":["Breakfast",
+                                 "Lunch",
+                                 "Appetizers",
+                                 "Brunch",
+                                 "Dinner"]
+                  },
+             {
+             "title": "Question2",
+             "Keyname": "Would you like beverages included?*",
+             "Type": "Radio",
+             "information":[ "Yes, Beverages",
+                            "No, Beverages"]
+             },
+             {
+             "title": "Question3",
+             "Keyname": "How many guests are you expecting?*",
+             "Type": "Radio",
+             "information":["25-50",
+                            "50-75",
+                            " 75-100",
+                            "100-150",
+                            "150-200",
+                            " 200+"]
+             },
+
+             {
+             "title": "Question4",
+             "Keyname": "What type of cuisine would you like served?*",
+             "Type": "Check",
+             "information":["Arabic",
+                            "Germoney",
+                            "International",
+                            "Indian",
+                            "Other"]
+             },
+
+             
+                  ]
+}
